@@ -104,10 +104,6 @@ int main(int arg, char *args[]) {
 
   cout << " l infinity of Error = " << err0 << endl;
 
-  delete [] d;
-  delete [] dl;
-  delete [] du; 
-  delete [] r; 
   
 #if (PRINT == 1)
   for (int i = 0; i < size; i++) {
@@ -115,4 +111,10 @@ int main(int arg, char *args[]) {
     cout << r[i] << endl;
   }
 #endif
+   
+   
+  delete [] d;
+  delete [] dl;
+  delete [] du; 
+  delete [] r; 
 }
