@@ -18,6 +18,7 @@
 // The source is calculated by plugging in the sin(omega*pi*x) into the poisson's equation,
 // The solution is presented on [0:1.0] domain
 // the output is the error
+// Developed by Jaber Hasbestan
 
 #define OMEGA 1.0
 
