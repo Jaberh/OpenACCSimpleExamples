@@ -10,6 +10,9 @@
 using namespace std;
 
 // Jaber Hasbestan, PhD
+// compile withe mpi enabled openacc
+// alse used c++11 standard 
+
 
 /*! \brief
  *  code to extract node number from processor name
